@@ -2,9 +2,9 @@
 
 本脚本集成了来自STCN的minimax4233、wolaiwozhengfu的脚本内容并加以修改，向上述二位大佬表示感谢！
 ---
-已适配Ubuntu各个版本、Debian各个版本，Centos或其他Linux内核不适用！
+已适配Ubuntu12.04-18.04各个版本、Debian8 & 9各个版本，Centos或其他Linux内核不适用！
 ----
-使用方法：
+使用方法
 ----
 使用xshell、putty或其他任何一种SSH软件连接您的主机，之后输入命令：  
 `wget -N --no-check-certificate https://raw.githubusercontent.com/SayaBear/AFU/master/AFU.bash && chmod +x AFU.bash && bash AFU.bash`  
