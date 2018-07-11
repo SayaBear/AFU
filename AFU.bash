@@ -25,4 +25,4 @@ echo -e "{
   "\"CurrentCulture\"": "\"zh-CN\""
 }" > /root/ASF/config/ASF.json
 cd /root/ASF
-screen -S ASF
+screen -U -S ASF
