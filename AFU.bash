@@ -14,13 +14,13 @@ sudo apt install screen
 wget https://github.com/JustArchi/ArchiSteamFarm/releases/download/3.2.0.2/ASF-linux-x64.zip
 unzip ASF-linux-x64.zip -d ASF/
 cd ASF/config
-touch bot1.json
+touch bot.json
 echo -e "{
   "\"Enabled\"": true,
   "\"SteamLogin\"": "\"$Account\"",
   "\"SteamPassword\"": "\"$Code\"",
   "\"IsBotAccount\"": false,
-}" > /root/ASF/config/bot1.json
+}" > /root/ASF/config/bot.json
 echo -e "{
   "\"CurrentCulture\"": "\"zh-CN\""
 }" > /root/ASF/config/ASF.json
