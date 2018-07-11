@@ -1,5 +1,5 @@
 # AFU
-=====
+
 本脚本集成了来自STCN的minimax4233、wolaiwozhengfu的脚本内容并加以修改，向上述二位大佬表示感谢！
 ---
 已适配Ubuntu各个版本、Debian各个版本，Centos或其他Linux内核不适用！
