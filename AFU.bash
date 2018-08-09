@@ -22,7 +22,8 @@ echo -e "{
   "\"IsBotAccount\"": false,
 }" > /root/ASF/config/bot.json
 echo -e "{
-  "\"CurrentCulture\"": "\"zh-CN\""
+  "\"CurrentCulture\"": "\"zh-CN\"",
+  "\"UpdateChannel\"": 0,
 }" > /root/ASF/config/ASF.json
 cd /root/ASF
 screen -U -S ASF
