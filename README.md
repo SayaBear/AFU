@@ -10,7 +10,13 @@
 `wget -N --no-check-certificate https://raw.githubusercontent.com/SayaBear/AFU/master/AFU.bash && chmod +x AFU.bash && bash AFU.bash`  
 之后回车，跟随屏幕提示输入账号、密码  
 可能会出现类似`Do you want to continue? [Y/n]`的内容，系安装.net core依赖所致，输入Y回车或直接回车继续安装即可  
-安装完成后，屏幕会自动跳转至已经开启的Screen界面，即屏幕仅显示类似`root@abc:~/ASF#`的内容，复制或输入下列两条指令：  
+在对下载的ASF-linux-x64包解压之后，系统会弹出  
+`是否需要开启通过steam组输入指令功能？   
+1.开启  
+2.不开启  
+请输入数字`  
+如果需要上述功能，请在输入对应数字后输入你个人的64位ID及组ID地址。  
+如果不需要上述功能，屏幕会自动跳转至已经开启的Screen界面，即屏幕仅显示类似`root@abc:~/ASF#`的内容，复制或输入下列两条指令：  
 `chmod +x ArchiSteamFarm`  
 `./ArchiSteamFarm`  
 之后回车，输入手机令牌，即可开始挂卡！
