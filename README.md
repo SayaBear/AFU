@@ -10,7 +10,7 @@
 `wget -N --no-check-certificate https://raw.githubusercontent.com/SayaBear/AFU/master/AFU.bash && chmod +x AFU.bash && bash AFU.bash`  
 之后回车，跟随屏幕提示输入账号、密码  
 可能会出现类似`Do you want to continue? [Y/n]`的内容，系安装.net core依赖所致，输入Y回车或直接回车继续安装即可  
-在对下载的ASF-linux-x64包解压之后，系统会弹出  
+在对下载的ASF-linux-x64包解压之后，脚本会弹出  
 `是否需要开启通过steam组输入指令功能？   
 1.开启  
 2.不开启  
