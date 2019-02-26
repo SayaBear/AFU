@@ -8,7 +8,7 @@ read Account
 echo "输入你的密码";
 read Code
 sudo apt-get update
-sudo apt-get install libicu-dev
+sudo apt-get install libicu-dev -y
 sudo apt install unzip
 sudo apt install screen
 wget https://github.com/JustArchi/ArchiSteamFarm/releases/download/3.3.0.3/ASF-linux-x64.zip
